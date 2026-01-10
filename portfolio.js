@@ -1,13 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     const menuBtnIcon = document.querySelector('.menuIcon');
+    const menuClose = document.querySelector('.close_menu');
     const menuBaar = document.querySelector('.menu_baar');
+   
 
-    if (menuBtnIcon && menuBaar) {
+
         menuBtnIcon.addEventListener('click', () => {
-            menuBaar.classList.toggle('open');
+            menuBaar.classList.add('open');
         });
-    } else {
-        console.log("Error: HTML elements not found. Please check classes.");
-
-    }
+        menuClose.addEventListener('click', () => {
+            menuBaar.classList.remove('open');
+        });
 });
