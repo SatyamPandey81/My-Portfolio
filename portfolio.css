@@ -357,8 +357,8 @@ h2 {
 }
 
 .projects ul{
-    width: 100%;
-    min-width: 500px;
+    width: 80%;
+    min-width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -427,3 +427,4 @@ h2 {
         display: none;
     }
 }
+
