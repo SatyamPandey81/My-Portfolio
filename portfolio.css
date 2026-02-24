@@ -301,8 +301,9 @@ h2 {
     overflow-x: auto;
 }
 .education_table{
-    min-width: 600px;
+    min-width: 300px;
     min-height: 300px;
+    margin-left: 200px;
     background: linear-gradient(135deg, #1a1a1a, #333333);
     box-shadow: 1px 1px 10px rgba(0, 205, 251, 0.8);
     color: white;
@@ -427,4 +428,5 @@ h2 {
         display: none;
     }
 }
+
 
