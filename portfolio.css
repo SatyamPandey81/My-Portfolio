@@ -291,7 +291,6 @@ body{
     height:calc(100vh - 60px);
     padding:20px;
     box-sizing: border-box;
-    border: 1px solid white;
 }
 h2 {
     color: white;
@@ -439,4 +438,5 @@ h2 {
         display: none;
     }
 }
+
 
