@@ -284,22 +284,28 @@ body{
     background: linear-gradient(135deg, #000000, #2c2c2c);
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: cennter;
+    justify-content: center;
     justify-content: space-around;
     height:calc(100vh - 60px);
     padding:20px;
     box-sizing: border-box;
-}.education {
+    border: 1px solid white;
+}
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+.education {
     overflow-x: auto;
 }
 .education_table{
-    width: 80%;
-    height: auto;
+    min-width: 600px;
+    min-height: 300px;
     background: linear-gradient(135deg, #1a1a1a, #333333);
     box-shadow: 1px 1px 10px rgba(0, 205, 251, 0.8);
     color: white;
-    margin-top: 20px;
     border-radius: 10px;
 }
 .education_table, th ,td {
@@ -309,18 +315,7 @@ body{
     font-size: 16px;
     padding: 10px;
 }
-.education_table caption{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.skills {
-    flex-direction: column;
-    /* border: 1px solid white; */
-}
-.skills h2{
-    color: white;
-    margin-bottom: 20px;
-}
+
 .skills .skills-container{
     width:80%;
     height: 90%;
@@ -329,7 +324,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    overflow-y: scroll; 
+    overflow-y: auto; 
 }
 .skill-card{
     /* border: 1px solid white; */
@@ -351,21 +346,46 @@ body{
     height: 120px;
     margin-bottom: 10px;
     border-radius: 10px;
-
 }
 .skill-card h3{
     font-size: 18px;
+}
+
+.projects{
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+.projects ul{
+    width: 100%;
+    min-width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    /* border: 1px solid white; */
+    color: white;
+    align-items: start;
+}
+
+.projects ul li{
+    /* border: 1px solid white; */
+    margin: 20px;
+}
+.projects ul li a{
+    text-decoration: none;
+    color: rgb(0, 205, 251);
+    font-size: 18px;
+    font-weight: bold;
 }
 .about_us{
     /* border: 1px solid white; */
     width: 100%;
     overflow-y: auto;
-    flex-direction: column;
     color: white;
-}
-.about_us h2{
-    margin: 20px;
-    font-size: 24px;
 }
 .about_us p{
     /* border: 1px solid white; */
