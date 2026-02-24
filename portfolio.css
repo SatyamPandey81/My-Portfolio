@@ -367,6 +367,7 @@ h2 {
     align-items: center;
     justify-content: center;
     overflow-y: auto;
+    overflow-x: auto;
     /* border: 1px solid white; */
     color: white;
     align-items: start;
@@ -428,5 +429,6 @@ h2 {
         display: none;
     }
 }
+
 
 
