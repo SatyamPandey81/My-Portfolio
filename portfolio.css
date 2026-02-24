@@ -367,12 +367,12 @@ h2 {
     overflow-y: auto;
     overflow-x: auto;
     color: white;
-    align-items: start;
 }
 
 .projects ul li{
     /* border: 1px solid white; */
     margin: 10px;
+    width:100%;
 }
 .projects ul li a{
     text-decoration: none;
@@ -438,6 +438,7 @@ h2 {
         display: none;
     }
 }
+
 
 
 
