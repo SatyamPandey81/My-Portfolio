@@ -303,7 +303,6 @@ h2 {
 .education_table{
     min-width: 300px;
     min-height: 300px;
-    margin-left: 200px;
     background: linear-gradient(135deg, #1a1a1a, #333333);
     box-shadow: 1px 1px 10px rgba(0, 205, 251, 0.8);
     color: white;
@@ -359,8 +358,8 @@ h2 {
 
 .projects ul{
     width: 80%;
-    min-width: 300px;
-    height: 300px;
+    height: auto;
+    max-height: 200px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -368,14 +367,14 @@ h2 {
     justify-content: center;
     overflow-y: auto;
     overflow-x: auto;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     color: white;
     align-items: start;
 }
 
 .projects ul li{
     /* border: 1px solid white; */
-    margin: 20px;
+    margin: 10px;
 }
 .projects ul li a{
     text-decoration: none;
@@ -420,6 +419,18 @@ h2 {
         text-align: center;
         
     }
+    .education_table{
+        width: 100%;
+        min-width: 300px;
+        margin-left: 200px;
+    }
+     .skills .skills-container{
+        width:100%;
+        height: auto;
+    }
+     .projects ul{
+        width: 100%;
+    }
     
 }
 
@@ -429,6 +440,3 @@ h2 {
         display: none;
     }
 }
-
-
-
